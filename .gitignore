@@ -1,0 +1,40 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.python-version
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── Rift: never commit live samples or payloads ──
+# Malicious and test model files are generated locally and stay local.
+# They are dangerous to load and must never enter the repo history.
+# If you ever need a known-safe fixture in the repo, add it explicitly
+# with:  git add -f path/to/that/file
+samples/
+malicious/
+payloads/
+*.pt
+*.pth
+*.bin
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.ckpt
+*.7z
+*.vhdx
+
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
