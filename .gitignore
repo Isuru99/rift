@@ -29,6 +29,7 @@ payloads/
 *.h5
 *.keras
 *.ckpt
+*.zip
 *.7z
 *.vhdx
 
